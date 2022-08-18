@@ -1,3 +1,7 @@
+[![pages-build-deployment](https://github.com/bztfinformatik/lernportfolio-cedricniederberger-php/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/bztfinformatik/lernportfolio-cedricniederberger-php/actions/workflows/pages/pages-build-deployment)
+
+> [Link zu Docsify](https://bztfinformatik.github.io/lernportfolio-cedricniederberger-php/#/)
+
 # docsify-starter
 
 > A Docsify starter, with local PlantUML server
