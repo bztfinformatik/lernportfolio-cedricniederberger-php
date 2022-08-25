@@ -1,3 +1,3 @@
 * [Home](/)
 
-    * [Examples](sub/)
+    * [Allgemein](sub/)
