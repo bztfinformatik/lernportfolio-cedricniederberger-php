@@ -1,3 +1,5 @@
-* [Home](/)
+* [Home](MD/HOME.md)
 
-    * [Allgemein](ALLGEMEIN.md)
+  * [Allgemein](MD/ALLGEMEIN.md)
+
+  *
