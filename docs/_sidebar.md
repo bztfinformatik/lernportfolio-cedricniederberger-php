@@ -1,3 +1,5 @@
 * [Allgemein](MD/ALLGEMEIN.md)
 * [Themen](MD/THEMEN.md)
-  * [Einführung-PHP](MD/EINFUEHRUNGPHP.md)
+  * [PHP Einführung ](MD/EINFUEHRUNGPHP.md)
+  * [PHP Rechnen ](MD/PHPRECHNEN.md)
+  * [PHP GET & POST](MD/GETPOST.md)
