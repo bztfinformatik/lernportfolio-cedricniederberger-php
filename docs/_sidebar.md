@@ -3,3 +3,4 @@
   * [PHP Einführung ](MD/EINFUEHRUNGPHP.md)
   * [PHP Rechnen ](MD/PHPRECHNEN.md)
   * [PHP GET & POST](MD/GETPOST.md)
+  * [PHP Arrays](MD/ARRAYS.md)
