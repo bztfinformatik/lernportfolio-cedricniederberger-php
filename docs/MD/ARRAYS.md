@@ -169,7 +169,7 @@ foreach($mitarbeiter["Klaus"]["Kinder"] AS $name) {
 
 ## Arrays durchsuchen
 
-So kann man Arrays durchsuchen
+Mittels *in_array($suchwert, $array)* kann man bestimmte variablen in einem Array suchen
 
 ```php
 $mitarbeiter = array("Bob","Peter","Lisa");
@@ -179,3 +179,46 @@ if(in_array($name,$mitarbeiter)) {
 }
 ?>
 ```
+
+## Anzahl der Array Felder ausgeben
+
+Mittels *count($array)* kann man die Anzahl an Elementen in einem Array herausfinden:
+
+```php
+<?php
+$namen = array("Klaus", "Anna", "Dieter");
+
+echo "<br> Durchlaufen des Arrays mittels for-Schleife: ";
+for($i=0; $i<count($namen); $i++) {
+  echo $namen[$i].", ";
+}
+
+echo "<br> Durchlaufen des Arrays mittels foreach-Schleife: ";
+foreach($namen AS $name) {
+  echo $name.", ";
+}
+?>
+```
+
+## Arrays sortieren
+
+Mit **sort()** respektive **rsort()** lassen sich  arrays von *a-z* beziehungsweise *z-a* sortieren
+
+```php
+<?php
+$namen = array("Klaus", "Dieter", "Anna", "Melissa", "arne");
+
+sort($namen);
+echo implode(", ", $namen);
+?>
+```
+
+## List der nützlichen Array befehle
+
+
+* array_key_exists($key, $array) - Überprüft, ob der Schlüssel $key im $array existiert.
+* count($array) - Gibt die Anzahl der Elemente im Array zurück.
+* in_array($suchwert, $array) - Überprüft, ob der Wert $suchwert im $array existiert.
+* sort($array) - Sortiert ein Array aufsteigend, vom kleinsten zum größten Wert (A -> Z).
+* rsort($array) - Sortiert ein Array absteigend, vom größten zum kleinsten Wert (Z -> A).
+* shuffle($array) - Mischt zufällig die Elemente des Arrays.
