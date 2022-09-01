@@ -1,4 +1,5 @@
 * [Allgemein](MD/ALLGEMEIN.md)
+* [Aufgabe](MD/AUFGABEN.md)
 * [Themen](MD/THEMEN.md)
   * [PHP Einführung ](MD/EINFUEHRUNGPHP.md)
   * [PHP Rechnen ](MD/PHPRECHNEN.md)
