@@ -5,3 +5,8 @@
   * [PHP Rechnen ](MD/PHPRECHNEN.md)
   * [PHP GET & POST](MD/GETPOST.md)
   * [PHP Arrays](MD/ARRAYS.md)
+  * [PHP If-Anweisungen](MD/IFELSE.md)
+  * [PHP Vergleichsoperatoren](MD/VERGLEICHSOPERATOREN.md)
+  * [PHP Logische Operatoren](MD/LOGISCHEOPERATOREN.md)
+  * [PHP While-Schleifen](MD/WHILE.md)
+  * [PHP For-Schleifen](MD/FORSCHLEIFE.md)
