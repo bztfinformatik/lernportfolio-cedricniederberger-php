@@ -35,3 +35,94 @@ echo $_POST["text"];
 
 ?>
 ```
+
+## Getränke Formular
+
+**Index.html**:
+```html
+<html>
+    <head>
+        <title>Getränke Formular</title>
+    </head>
+    <body>
+        <h3>Getraenke</h3>
+        <p>Bitte machen Sie folgende Angaben</p>
+        <form action="auswertung.php" method="POST">
+            <table>
+                <tr><td>Anrede:</td><td><label>Herr:</label><input type="radio" name="anrede" value="Herr"><label>Frau:</label><input type="radio" name="anrede" value="Frau"><label>Divers:</label><input type="radio" name="anrede" value=""></td></tr>
+                <tr><td>Vorname, Nachname:</td><td><input type="text" name="vorname" placeholder="Vorname"></td><td><input type="text" name="nachname" placeholder="Nachname"></td></tr>
+                <tr><td>Adresse:</td><td><input type="text" name="adresse" placeholder="Adresse"></td><td><input type="text" name="plz" placeholder="PLZ"></td></tr>
+                <tr><td>E-Mail:</td><td><input type="email" name="email" placeholder="E-Mail"></td></tr>
+                
+            </table>
+            <p>Ihre Getraenkewahl:</p>
+            <table>
+                <tr><td>Nicht alkoholisch:</td><td><input type="checkbox" name="getraenke" value="nichtalk"></td></tr>
+                <tr><td>Schnaps:</td><td><input type="checkbox" name="getraenke" value="schnaps"></td></tr>
+                <tr><td>Bier:</td><td><input type="checkbox" name="getraenke" value="bier"></td></tr>
+            </table>
+            <br>
+            <tr><td><input type="submit" name="submit" value="Abschicken"></td>
+        </form>
+    </body>
+</html>
+```
+
+**auswertung.php**:
+```php
+<html>
+<head>
+<title>Auswertung</title>
+</head>
+<body style='background-color:pink' >
+   <img src="https://c.tenor.com/O_x4UCmt5p0AAAAi/among-us-twerk.gif">
+   <img src="https://c.tenor.com/O_x4UCmt5p0AAAAi/among-us-twerk.gif">
+   <img src="https://c.tenor.com/O_x4UCmt5p0AAAAi/among-us-twerk.gif">
+   <img src="https://c.tenor.com/O_x4UCmt5p0AAAAi/among-us-twerk.gif">
+   <br>
+	<?php
+   $anrede = $_POST["anrede"];
+   $vorname = $_POST["vorname"];
+   $nachname = $_POST["nachname"];
+   $adresse = $_POST["adresse"];
+   $plz = $_POST["plz"];
+   $email = $_POST["email"];
+   
+   echo "Sehr geehrte/r $anrede $vorname $nachname";
+   echo "<br>";
+   echo "<br>";
+   echo "Wir haben Ihre Anfrage erhalten. Folgendes haben Sie angegeben:";
+   echo "<br>";
+   echo "
+      <table>
+         <tr>
+            <td>Name:</td>
+            <td>$vorname $nachname</td>
+         </tr>
+         <tr>
+            <td>Adresse:</td>
+            <td>$adresse, $plz</td>
+         </tr>
+         <tr>
+            <td>E-Mail:</td>
+            <td>$email</td>
+         </tr>
+         <tr>
+            <td>Getraenke:</td>
+            <td>Nicht alkoholische<br>Schnaps<br>Bier<br></td>
+         </tr>
+      </table>
+   ";
+	?>
+   <img src="https://c.tenor.com/O_x4UCmt5p0AAAAi/among-us-twerk.gif">
+   <img src="https://c.tenor.com/O_x4UCmt5p0AAAAi/among-us-twerk.gif">
+   <img src="https://c.tenor.com/O_x4UCmt5p0AAAAi/among-us-twerk.gif">
+   <img src="https://c.tenor.com/O_x4UCmt5p0AAAAi/among-us-twerk.gif">
+   <br>
+   <img src="https://c.tenor.com/lBoeGrikScQAAAAi/obama-obamium.gif">
+   <img src="https://c.tenor.com/lBoeGrikScQAAAAi/obama-obamium.gif">
+   <img src="https://c.tenor.com/lBoeGrikScQAAAAi/obama-obamium.gif">
+   <img src="https://c.tenor.com/lBoeGrikScQAAAAi/obama-obamium.gif">
+</body>
+</html>
+```
