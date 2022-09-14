@@ -139,3 +139,21 @@ Probleme hatte ich bei der Ausgabe der gewählten Getränke. Ich wusste nicht wi
 </body>
 </html>
 ```
+
+## Dateien lesen
+
+### Probleme und gelerntes
+
+Ich habe gelernt, dass man mit file_get_contents() den Inhalt einer Text files einlesen kann. Ich habe aber schwierigkeiten mit den darauffolgenden Aufgaben
+
+### Code
+
+```php
+<?php
+$inhalt = file_get_contents('text.txt');
+
+echo $inhalt;
+?>
+```
+
+**Ausgabe:** Ich bin Inhalt aus einem Textfile
