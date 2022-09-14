@@ -2,6 +2,10 @@
 
 ## Array in Tabelle wiedergeben
 
+## Probleme und gelerntes
+Die Aufgabe war relativ einfach und deshalb ware kaum Probleme vorhanden. Ich war mir zuerst unsicher, wie ich die Zahlen in der Tabelle erscheinen lassen möchte da es mehrere möglichkeiten gibt dies zu tun. Ich habe mich mit für die Variante entschieden, einen array als variabel für die einzelnen Zahlen zu verwenden. Der Vorteil davon ist, dass ich die Tabelle ohne probleme ausbauen könnte, sowie Zahlen entfernen und hinzufügen konnte
+
+### Code
 ```php
 <?php
 
@@ -23,6 +27,10 @@
 
 ## Formular eingabe und ausgabe
 
+### Probleme und gelerntes
+Die Aufgabe hat mir gezeigt, wie ich eine Formular eingabe ausgeben kann. Die Ausgabe kann man auf einer neuen externen Seite ausgeben oder auf der selben Seite wie das Formular ausgeben. Ich habe mich für die Variante entschieden, dass ich die Ausgabe auf der selben Seite machen lasse. Dies ist etwas einfacher und geht schneller
+
+### Code
 ```html
 <form method="post">
     Text: <input type="text" name="text" /><br />
@@ -38,6 +46,11 @@ echo $_POST["text"];
 
 ## Getränke Formular
 
+### Probleme und gelerntes
+Durch die Aufgabe konnte ich viel über Formulare in PHP lernen. Auch hier gab es verschiedene Varianten. Ich habe mich entschieden, die Ausgabe auf einer neuen Seite anzeigen zu lassen. Die Eingabe und Ausgabe hat soweit funktioniert.
+Probleme hatte ich bei der Ausgabe der gewählten Getränke. Ich wusste nicht wie ich die alles so ausgebe, dass nur angezeigt wird, was auch ausgewählt wurde.
+
+### Code
 **Index.html**:
 ```html
 <html>
