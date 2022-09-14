@@ -11,7 +11,3 @@
 * [PHP While-Schleifen](MD/WHILE.md)
 * [PHP For-Schleifen](MD/FORSCHLEIFE.md)
 * [PHP SSR und CSR](MD/CSRUNDSSR.md)
-
-
-#### Aufgaben
-* [Aufgabe Tabelle]()

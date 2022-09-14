@@ -86,10 +86,10 @@ Ich habe gelernt, dass verschiedene Arten von Arrays je nach Situation optimal o
 
 Als erstes haben wir uns die Hausaufgaben angeschaut. Wir mussten ein Formular erstellen und die eingaben mit [GET](MD/GETPOST.md) oder [POST](MD/GETPOST.md) wieder ausgeben. Wir haben unsere Lösungen untereinander verglichen und die Möglichkeiten anschliessend Präsentiert.
 
-Ebenfalls haben wir uns SSR und CSR angeschaut. Dies sind zwei verschiedene Arten PHP auszugeben. Man kann dies entweder auf dem Server oder beim Client machen.
+Ebenfalls haben wir uns [SSR](MD/CSRUNDSSR.md) und [CSR](MD/CSRUNDSSR.md) angeschaut. Dies sind zwei verschiedene Arten PHP auszugeben. Man kann dies entweder auf dem Server oder beim Client machen.
 
 ### Learnings
 
 Ich habe gelernt, dass man in PHP viele Möglichkeiten hat ein Ziel zu erfüllen. Z.b haben andere in meiner Klasse für das Bier Formular eine andere Methode verwendet, aber das Resultat stimmte schlussendlich. Dies zeigte mir, wie vielseitg PHP sein kann.
 
-SSR (Server side rendering) und CSR (Client side rendering) sind zwei Aspekte von PHP die mir zuvor gar nicht bekannt waren. Nun weiss ich, dass man PHP über zwei verschiedene Arten beim Client ausgeben kann.
+[SSR](MD/CSRUNDSSR.md) (Server side rendering) und [CSR](MD/CSRUNDSSR.md) (Client side rendering) sind zwei Aspekte von PHP die mir zuvor gar nicht bekannt waren. Nun weiss ich, dass man PHP über zwei verschiedene Arten beim Client ausgeben kann.
