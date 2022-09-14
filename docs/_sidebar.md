@@ -1,4 +1,5 @@
 * [Allgemein](MD/ALLGEMEIN.md)
+* [Reflexion](MD/REFLEXION.md)
 * [Aufgabe](MD/AUFGABEN.md)
 * [Themen](MD/THEMEN.md)
   * [PHP Einführung ](MD/EINFUEHRUNGPHP.md)
@@ -10,3 +11,4 @@
   * [PHP Logische Operatoren](MD/LOGISCHEOPERATOREN.md)
   * [PHP While-Schleifen](MD/WHILE.md)
   * [PHP For-Schleifen](MD/FORSCHLEIFE.md)
+  * [PHP SSR und CSR](MD/CSRUNDSSR.md)
