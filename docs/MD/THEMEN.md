@@ -1,6 +1,7 @@
 # Themen
 
-#### PHP
+#### PHP Syntax
+
 * [Einführung in PHP](MD/EINFUEHRUNGPHP.md)
 * [Rechnen in PHP](MD/PHPRECHNEN.md)
 * [GET und POST in PHP](MD/GETPOST.md)
@@ -11,3 +12,7 @@
 * [PHP While-Schleifen](MD/WHILE.md)
 * [PHP For-Schleifen](MD/FORSCHLEIFE.md)
 * [PHP SSR und CSR](MD/CSRUNDSSR.md)
+
+#### PHP Logik
+
+* [Objektorientierung in PHP](MD/OBJEKTORIENTIERUNG.md)
