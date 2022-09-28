@@ -157,3 +157,49 @@ echo $inhalt;
 ```
 
 **Ausgabe:** Ich bin Inhalt aus einem Textfile
+
+## Diagramme MVC
+
+### Probleme und gelerntes
+
+Die Aufgabe hat mir geholfen, dass MVC "Framework" besser zu verstehen. Ich kann nun besser verstehen, wie die Klassen und Funktionen zusammenhängen, und wie ein call mithilfe einer URL gemacht wird. Leider haben ich nicht alles im Detail verstanden und konnte deshalb vor allem beim Sequenzdiagramm keine Detailierten Sequenzen darstellen und nur Oberflächlich den Ablauf zeigen kann.
+
+### Diagramme
+
+**Klassendiagramm:**
+
+![](../img/Klassendiagramm_MVC.png)
+
+**Sequenzdiagramm:**
+
+![](../img/Sequemzdiagramm_MVC.png)
+
+## Neues MVC Datenobjekt
+
+### Probleme und gelerntes
+
+Die Aufgabe war hilfreich die Grundlagen des MVC zu verstehen, und wie man neue Controller anlegt.
+
+### Code
+
+Die Funktion erkennt, ob die eingegebene Zahl gerade oder ungerade ist.
+
+```php
+<?php
+
+class Math extends Controller {
+
+    public function modulo($zahl1 = 1) {
+
+        if ($zahl1 % 2) {
+            echo 'Zahl ist ungerade';
+        } else {
+            echo 'Zahl ist gerade';
+        }
+    }
+}
+```
+
+### Ausgabe
+
+![](../img/modulo.png)
