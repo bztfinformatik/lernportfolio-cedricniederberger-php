@@ -11,8 +11,9 @@
 * [Logische Operatoren in PHP](MD/LOGISCHEOPERATOREN.md)
 * [PHP While-Schleifen](MD/WHILE.md)
 * [PHP For-Schleifen](MD/FORSCHLEIFE.md)
-* [PHP SSR und CSR](MD/CSRUNDSSR.md)
 
 #### PHP Logik
 
 * [Objektorientierung in PHP](MD/OBJEKTORIENTIERUNG.md)
+* [PHP SSR und CSR](MD/CSRUNDSSR.md)
+* [PHP MVC](MD/MVC.md)
