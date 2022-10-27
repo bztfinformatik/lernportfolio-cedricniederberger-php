@@ -1,0 +1,24 @@
+@startuml
+
+(SSR)
+(CSR)
+(MVC)
+(Template-Engine) as (TEngine)
+(Use-Case) as (UseCase)
+(Aktoren)
+(Funktionale Anforderungen) as (Anforderungen)
+(Testszenario)
+(Testfall)
+
+(Anforderungen) "Braucht es für" --> (UseCase)
+
+(Testszenario) "Testet" --> (UseCase)
+
+(Testszenario) "Testet" --> (Anforderungen)
+
+(Testszenario) "Haben" --> (Testfall)
+(Testfall) "Erstellt" --> (Testszenario)
+
+(UseCase) "Erstellt" --> (Testfall)
+
+@enduml
