@@ -1,5 +1,3 @@
-@startuml
-
 (SSR)
 (CSR)
 (MVC)
@@ -20,5 +18,3 @@
 (Testfall) "Erstellt" --> (Testszenario)
 
 (UseCase) "Erstellt" --> (Testfall)
-
-@enduml
