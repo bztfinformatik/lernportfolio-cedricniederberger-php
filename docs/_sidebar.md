@@ -2,6 +2,9 @@
 * [Reflexion](MD/REFLEXION.md)
 * [Aufgabe](MD/AUFGABEN.md)
 * [LB Vorgaben](MD/LBVORGABEN.md)
+  * [Architektur Konzept](MD/ARCHITEKTURKONZEPT.md)
+  * [Use-Cases und Anforderungen](MD/USECASES.md)
+  
 * [Themen](MD/THEMEN.md)
   * [PHP Einführung ](MD/EINFUEHRUNGPHP.md)
   * [PHP Rechnen ](MD/PHPRECHNEN.md)

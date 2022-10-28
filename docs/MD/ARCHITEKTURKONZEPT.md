@@ -98,3 +98,9 @@ Deshalb verwende ich Controller an allen Orten an denen eine Interaktion möglic
 In den Controlle befinden sich dann wichtige Funktionen wie:
 
 - AddGuest.guestType() (Wählt den Gast-Typ und entfernt unwichtige Felder)
+
+## Anwendung von TWIG
+
+Wie bereits in den oberen Skitzen gezeigt, wird das Projekt eine Navbar auf der linken Seite haben.
+
+Die Tabellen werden mittig angezeigt. Bei manschen Aktionen wird ein Fenster geöffnet, wo man dann entweder Informationen sehen kann oder Gäste erstellen kann.
