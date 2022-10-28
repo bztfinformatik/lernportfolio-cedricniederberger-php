@@ -63,3 +63,38 @@ Gast hinzufügen:
 Archiv:
 ![](../img/Skitze/Skitze4.png)
 
+## MVC Anwendung
+
+Das das Projekt mit MVC durchgeführt wird, braucht es dementsprechend auch die MVC Model, Views und Controller.
+
+### Models
+
+Als Models stelle ich mir nur das Model **Gast**  vor.
+
+In diesem Model, werden die Daten der Gäste gespeichert.
+Da nicht jeder Gast die gleichen Daten hat, wird bei irrelevanten Daten einfach *NULL* verwendet.
+
+Sobald ein Datensatz *NULL*, dann wird er einfach nicht angezeigt.
+
+### Views
+
+Folgende Views werden benötigt:
+
+- View GuestTable (Tabelle in der alle Gäste angezeigt werden)
+- View Details (Anzeigen von alles Informationen eines Gastes)
+- View Add (Zeigt das Fenster zu einfügen von Informationen an)
+- View Archive (Zeigt die Archiv Tabelle an)
+
+Die Views werden mithilfe von Twig template engine gemacht.
+
+### Controller
+
+Die Controller ist die Logik des Programms.
+Deshalb verwende ich Controller an allen Orten an denen eine Interaktion möglich sein muss:
+
+- AddGuest (Erstellt einen Gast mit den eigegebenen Daten)
+- DeleteGuest (Entfernt den gewählten Gast)
+
+In den Controlle befinden sich dann wichtige Funktionen wie:
+
+- AddGuest.guestType() (Wählt den Gast-Typ und entfernt unwichtige Felder)
