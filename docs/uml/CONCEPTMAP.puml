@@ -1,3 +1,5 @@
+@startuml
+
 (SSR)
 (CSR)
 (MVC)
@@ -18,3 +20,20 @@
 (Testfall) "Erstellt" --> (Testszenario)
 
 (UseCase) "Erstellt" --> (Testfall)
+
+(UseCase) "Testet" --> (MVC)
+
+(SSR) "Erfüllt gleiche Funktion" <--> (CSR)
+
+(MVC) "Verwendet zum anzeigen" --> (SSR)
+(MVC) "Verwendet zum anzeigen" --> (CSR)
+
+(TEngine) "Generiert view von..." <--> "Verwendet" (MVC)
+
+(UseCase) "Testet" --> (TEngine)
+
+(Aktoren) "Verwenden view von..." --> (MVC)
+
+(Aktoren) "Benutzer in..." --> (Testszenario)
+
+@enduml

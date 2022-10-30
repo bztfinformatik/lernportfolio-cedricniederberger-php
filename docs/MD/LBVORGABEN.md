@@ -15,3 +15,6 @@
         - [Beschreibung der Use-Cases](MD/USECASES.md)
         - [Beschreibung der Akteuren](MD/USECASES.md)
         - [Diagramm der Use-Cases](MD/USECASES.md)
+
+- **Concept-Map**
+    - [Concept-Map](MD/CONCEPTMAP.md)

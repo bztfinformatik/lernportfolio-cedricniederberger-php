@@ -4,6 +4,7 @@
 * [LB Vorgaben](MD/LBVORGABEN.md)
   * [Architektur Konzept](MD/ARCHITEKTURKONZEPT.md)
   * [Use-Cases und Anforderungen](MD/USECASES.md)
+  * [Concept-Maps](MD/CONCEPTMAP.md)
   
 * [Themen](MD/THEMEN.md)
   * [PHP Einführung ](MD/EINFUEHRUNGPHP.md)
