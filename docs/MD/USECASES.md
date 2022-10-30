@@ -96,7 +96,6 @@
 
 **Gast hinzufügen**
 
-
 | Name | Gast hinzufügen |
 |----------------------|-----------------|
 | Ziel im Kontext      | Ein Gast wird hinzugefügt |
@@ -105,7 +104,8 @@
 | Essenzielle Schritte | 1. Benutzer drückt den Hinzufügen Knopf 2. Benutzerwählt den Gasttyp aus 3. Benutzer füllt die Felder mit korrekten angaben 4. Benutzer drückt den Bestätigungsknopf |
 
 **Gast löschen**
-| Name                 | Gast löschen |
+
+| Name | Gast löschen |
 |----------------------|--------------|
 | Ziel im Kontext      | Ein Gast wird gelöscht |
 | Akteure              | Benutzer, Gast |
@@ -113,7 +113,8 @@
 | Essenzielle Schritte | 1. Benutzer drückt den löschen Knopf 2. Benutzerwählt den Gast aus 4. Benutzer bestätigt die Aktion |
 
 **Gast editieren**
-| Name                 | Gast editieren |
+
+| Name | Gast editieren |
 |----------------------|----------------|
 | Ziel im Kontext      | Ein Gast wird editiert |
 | Akteure              | Benutzer, Gast |
@@ -121,7 +122,8 @@
 | Essenzielle Schritte | 1. Benutzer drückt den editieren Knopf 2. Benutzer ändert die gewünschten Felder 4. Benutzer drückt den bestätigen Knopf |
 
 **Gast Informationen ansehen**
-| Name                 | Gastinformationen ansehen |
+
+| Name | Gastinformationen ansehen |
 |----------------------|------------------------|
 | Ziel im Kontext | Detaillierte Informationen eines Gastes können eingesehen werde |
 | Akteure              | Benutzer, Gast |
@@ -129,7 +131,8 @@
 | Essenzielle Schritte | 1. Benutzer drückt auf den detaillierte Informationen Knopf 2. Benutzer schaut sich die gewünschten Informationen an 3. Benutzer schliesst das Fenster |
 
 **Gast vom Archiv wiederherstellen**
-| Name  | Archiv Gast wiederherstellen |
+
+| Name | Archiv Gast wiederherstellen |
 |-------|---------------|
 | Ziel im Kontext      | Ein Gast kann vom Archiv zurück zu den aktiven Gästen wiederhergestellt werden |
 | Akteure | Benutzer, Gast |
