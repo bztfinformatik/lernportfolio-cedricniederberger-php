@@ -95,7 +95,8 @@
 ## Testszenarios
 
 **Gast hinzufügen**
-| Name                 | Gast hinzufügen |
+
+| Name | Gast hinzufügen |
 |----------------------|-----------------|
 | Ziel im Kontext      | Ein Gast wird hinzugefügt |
 | Akteure              | Benutzer, Gast |
