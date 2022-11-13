@@ -1,7 +1,11 @@
 # Concept-Maps$
 
-## Concept-Map LB2
+## Concept-Map 1 LB2
 
-![Concept-Map LB2](../img/conceptmap1.png)
+![Concept-Map 2 LB2](../img/conceptmap1.png)
 
 Ich entschuldige mich für die fürchterliche Darstellung. Der Generator hat das leider so ausgegeben.
+
+## Concept-Map 2 LB2
+
+![Concept-Map LB2](../img/CONCEPTMAP2.png)

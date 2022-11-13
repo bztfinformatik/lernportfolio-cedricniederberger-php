@@ -1,0 +1,53 @@
+@startuml
+
+(if-funktionen bei Twig)
+(Mocking von Daten)
+(Rendern von View)
+(empty-funktionen)
+(santizen von Daten)
+
+(empty-funktionen) "Wird im View verwendet" --> (Rendern von View)
+(if-funktionen bei Twig) "Im View vorhanden" --> (Rendern von View)
+(Mocking von Daten) "Stellt gemockte Daten dar" -->  (Rendern von View)
+(santizen von Daten) "Sorgt für gut darstellung" --> (Rendern von View)
+(empty-funktionen) "Eine If-funktion" --> (if-funktionen bei Twig)
+(Mocking von Daten) "Verwendet gemockte Daten" <-- (if-funktionen bei Twig)
+
+note left of (Rendern von View)
+
+Im Bereich View wird die Benutzeroberfläche programmiert.
+Beim Rendern der View, wird die Benutzeroberfläche, 
+bestehend aus HTML, CSS und PHP elementen zu einer GUI generiert.
+
+end note
+
+note left of (if-funktionen bei Twig)
+
+Mithilfe von Twig kann man innerhalb von HTML if-funktionen
+verwenden um z.B nur bestimmte Daten anzeigen zu lassen.
+
+end note
+
+note top of (Mocking von Daten)
+
+Wenn man Daten mockt, möchte man fiktive Daten in
+ein System einpflegen, um das System mit dessen
+funktionen zu testen.
+
+end note
+
+note top of (empty-funktionen)
+
+Eine empty-funktion überprüft, ob z.B ein Feld
+leer ist um es dann z.B zu füllen.
+
+end note
+
+note bottom of (santizen von Daten)
+
+Daten "reinigen" von z.B Leerschlägen oder
+anderen ungewollten sachen
+
+end note
+
+@enduml
