@@ -17,4 +17,8 @@
 * [Objektorientierung in PHP](MD/OBJEKTORIENTIERUNG.md)
 * [PHP SSR und CSR](MD/CSRUNDSSR.md)
 * [PHP MVC](MD/MVC.md)
+
+#### Weitere Themen
+
 * [Regex](MD/REGEX.md)
+* [Prepared Statements](MD/PREPAREDSTATEMENTS.md)

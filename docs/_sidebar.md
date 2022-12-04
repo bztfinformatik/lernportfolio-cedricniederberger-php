@@ -20,3 +20,4 @@
   * [PHP Objektorientierung](MD/OBJEKTORIENTIERUNG.md)
   * [PHP MVC](MD/MVC.md)
   * [PHP Regex](MD/REGEX.md)
+  * [Prepared Statements](MD/PREPAREDSTATEMENTS.md)
