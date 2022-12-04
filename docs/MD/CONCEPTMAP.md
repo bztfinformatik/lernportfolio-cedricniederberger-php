@@ -9,3 +9,7 @@ Ich entschuldige mich für die fürchterliche Darstellung. Der Generator hat das
 ## Concept-Map 2 LB2
 
 ![Concept-Map LB2](../img/CONCEPTMAP2.png)
+
+## Concept-Map 3 LB2
+
+![Concept-Map LB2](../img/CONCEPTMAP3.png)

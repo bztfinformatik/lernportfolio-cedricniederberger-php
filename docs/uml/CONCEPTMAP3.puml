@@ -1,0 +1,100 @@
+@startuml
+
+(mysql-Datenverbindung)
+(mysqli-Datenverbindung)
+(PDO-Datenverbindung)
+(PostgreSQL)
+(MySQL)
+(Prepared-Statement)
+(SQL-Injection)
+(OOP)
+(Datenbankverwaltungsysteme)
+
+(MySQL)  --> "verwendet" (Prepared-Statement)
+(Prepared-Statement)  --> "verhindert" (SQL-Injection)
+(mysqli-Datenverbindung) "Ist..." --> (OOP)
+(OOP) <-- "Ist..." (PDO-Datenverbindung)
+(mysqli-Datenverbindung) "Nachvolger von..." --> (mysql-Datenverbindung)
+(MySQL) "Ermöglicht zugriff auf..." <-- (mysqli-Datenverbindung)
+(mysql-Datenverbindung) <-- "Nachvolger von..." (PDO-Datenverbindung)
+(MySQL) "Ist ein..."--> (Datenbankverwaltungsysteme)
+(PostgreSQL) "Ist ein..." --> (Datenbankverwaltungsysteme)
+(Prepared-Statement)  --> "Schützt" (Datenbankverwaltungsysteme)
+(Prepared-Statement) "Unterstützt" <--  (OOP)
+
+note as N1
+
+MySQL:
+MySQL ist ein tool um Datenbanken und Server zu Managen
+
+end note
+
+note as N2
+
+PostgreSQL:
+Ist ein Open-Source datenbankmanagment System.
+Es wurde an der UC Berkeley Entwickelt
+
+end note
+
+note as N3
+
+Prepared-Statement:
+Wird verwendet um die gleichen SQL Statement Objekte oft auszuführen.
+Ausserdem schützen sie von SQL Injections.
+
+end note
+
+note as N4
+
+OOP:
+Bei der objektorientierten Programmierung handelt es sich um einen Entwurfsansatz,
+der es einem ermöglicht, programmatisch Strukturen zu definieren.
+
+end note
+
+note as N5
+
+mysql-Datenverbindung:
+Eine möglichkeit sich mit einer Datenbank in verbindung zu setzen.
+Ist mitlerweile sehr veraltet und wir praktisch nicht mehr verwendet.
+
+end note
+
+note as N6
+
+mysqli-Datenverbindung:
+Eine möglichlkeit sich mit einer Datenbank in Verbindung zu setzen.
+Hat mysql-Datenverbindung abgelöst. Kann mit OOP verwendet werden.
+
+end note
+
+note as N7
+
+PDO-Datenverbindung:
+Eine möglichlkeit sich mit einer Datenbank in Verbindung zu setzen.
+Hat mysql-Datenverbindung abgelöst. Kann nur mit OOP verwendet werden.
+Kann auch in anderen Datanbanksystemen wie MySQL verwendet werden.
+
+end note
+
+note as N8
+
+SQL-Injections:
+Ist eine weit verbreitete Web hacking Technik.
+Man füllt dabei die im Statement verwendeten Variablen
+mit weiteren SQL Statements.
+Man kann sich mithilfe von Prepared Statements davor schützen.
+
+end note
+
+note as N9
+
+Datenbankverwaltungssysteme:
+MySql oder PostgreSQL sind Datenbankverwaltungssysteme.
+Wie der name es sagt verwalten sie Datenbanken
+
+end note
+
+
+@enduml
