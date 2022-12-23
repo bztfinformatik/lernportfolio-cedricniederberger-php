@@ -1,0 +1,84 @@
+@startuml
+
+(Sessions) as (SE)
+
+(Cookies) as (CK)
+
+($_COOKIE) as ($CK)
+
+($_SESSION) as ($SE)
+
+(session_helper.php) as (SH)
+
+(Authorisierung) as (AT)
+
+(JSON) as (JS)
+
+($CK) "Greift zu auf Cookie" ---> (CK)
+
+($SE) "Greift zu auf Sessions" ---> (SE)
+
+(SE)  ---> "Ermöglicht Autorisierung"  (AT)
+
+(SE) "Haben den gleichen Zweck" <-----> (CK)
+
+(AT) "Kann zur rollenzuteilung verwendet werden" ---> (JS)
+
+(SE) <--- "Ermöglicht Sessions" (SH)
+
+(CK) "Ermöglicht Autorisierung" --->  (AT)
+
+note left of ($SE)
+
+Eine Variabel von PHP welche alle Session Werte enthält.
+Mit $_SESSION kann man auf die Werte zugreifen.
+
+end note
+
+note left of (SE)
+
+Durch Sessions kann man Server-Seitig Daten speichern um diese bei
+einem erneuten Aufruf zu verwenden.
+
+end note
+
+note left of (CK)
+
+Cookies werden lokal auf dem Gerät des Benutzers gespeichert.
+Sie enthalten Daten die bei erneuten Aufrufen verwendet werden können.
+
+end note
+
+note right of (AT)
+
+Die Authorisierung ermöglicht funktionen für gewisse Rollen zu Sperren
+oder Freizuschalten.
+
+end note
+
+note left of (JS)
+
+JSON ist ein Dateiformat welches für den Austausch von Daten verwendet wird.
+Man kann auch z.B Rollen in einer Datenbank per JSON definieren welche dann
+zur Authorisierung genutzt werden kann.
+
+end note
+
+note bottom of (SH)
+
+Ist ein ein Script welche das verwalten von Sessions vereinfacht.
+Durch dieses Script muss nicht in jedem File session_start() verwendet werden.
+
+end note
+
+note top of ($CK)
+
+Ist eine Variabel von PHP welche alle Cookie werte enthält.
+$_COOKIE kan verwendet werden um auf Cookie werte zuzugreifen.
+
+end note
+
+
+
+
+@enduml

@@ -22,3 +22,4 @@
   * [PHP MVC](MD/MVC.md)
   * [PHP Regex](MD/REGEX.md)
   * [Prepared Statements](MD/PREPAREDSTATEMENTS.md)
+  * [PHP Cookie & Sessions](MD/SESSIONSCOOKIES.md)

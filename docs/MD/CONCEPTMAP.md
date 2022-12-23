@@ -1,4 +1,4 @@
-# Concept-Maps$
+# Concept-Maps
 
 ## Concept-Map 1 LB2
 
@@ -13,3 +13,7 @@ Ich entschuldige mich für die fürchterliche Darstellung. Der Generator hat das
 ## Concept-Map 3 LB2
 
 ![Concept-Map LB2](../img/CONCEPTMAP3.png)
+
+## Concept-Map 4 LB2
+
+![Concept-Map LB2](../img/CONCEPTMAP4.png)

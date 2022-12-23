@@ -11,6 +11,7 @@
 * [Logische Operatoren in PHP](MD/LOGISCHEOPERATOREN.md)
 * [PHP While-Schleifen](MD/WHILE.md)
 * [PHP For-Schleifen](MD/FORSCHLEIFE.md)
+* [PHP Cookie & Sessions](MD/SESSIONSCOOKIES.md)
 
 #### PHP Logik
 
